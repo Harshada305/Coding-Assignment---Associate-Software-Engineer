@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(52, 167, 255);
+}
+
+.container {
+    
+    max-width: 600px;
+    margin: auto;
+    background: #f9f9f9;
+    padding: 40px;
+    border: 1px solid #ccc;
+}
+
+.form-row {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+   
+}
+
+.form-column {
+    flex-basis: 40%;
+    
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+select,
+input[type="checkbox"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit {
+    background-color: #009dff;
+}
+
+#textbox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 45px;
+    margin: 8px 0;
+}

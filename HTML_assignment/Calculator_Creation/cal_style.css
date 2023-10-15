@@ -1,0 +1,45 @@
+body {
+    background-color: #808080;
+}
+
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.display {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.clear-button {
+    position: absolute;
+    top: 20px; /* Adjusted position from the top */
+    right: 20px; /* Adjusted position from the right */
+    width: 1.65cm;
+    background-color: #02adb6;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+}
+
+button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    color: #ffffff;
+}
+
+.action-button {
+    background-color: #979696;
+    padding: 15px;
+    border: none;
+    color: #fff;
+}
